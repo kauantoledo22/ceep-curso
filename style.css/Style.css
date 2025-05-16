@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+    background-color: aliceblue;
+    color: black;
+    line-height: 1.60;
+}
+
+header{
+    background-color: blue;
+    padding: 20px;
+    text-align: center;
+    color: aliceblue;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0);
+}
+
+nav ul{
+    list-style-type: none;
+    padding: 0;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+header hl{
+    margin: 0;
+    font-size: 2rem;
+}
