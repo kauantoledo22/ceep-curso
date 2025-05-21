@@ -1,1 +1,1 @@
-# ceep-curso
+# desegm-inspirado-no-cepi
