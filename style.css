@@ -9,7 +9,7 @@ body {
 }
 
 header{
-    position:  fixed;
+    position: fixed;
     top: 0;
     left: 0;
     height: 60px;
@@ -18,22 +18,20 @@ header{
     z-index: 100;
     display: flex;
     align-items: center;
-    padding: 20px;
-    text-align: center;
-    color:white;
+    color: white;
     box-sizing: border-box;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 .logo-link {
-    display:block;
+    display: block;
     height: 100%;
     display: flex;
     align-items: center;
 }
-.logo{
-    height: 40px;
 
+.logo {
+    height: 40px;
 }
 
 header h1{
@@ -68,6 +66,7 @@ nav ul li a:hover {
 
 main {
     padding: 20px;
+    margin-top: 60px;
     margin: 20px auto;
     max-width: 1000px;
     background-color: white;
@@ -148,30 +147,47 @@ footer {
     color: white;
     text-align: center;
     padding: 20px;
-    margin-top: 20px;
+    margin-top: 30px;
     border-top: 1px solid #495057;
 }
+
 @media(max-width: 768px){
     header h1{
         font-size: 1.8rem;
-
     }
-    nav ul li{
+        
+    nav ul li {
         margin: 0 10px;
     }
-    main{
+
+    main {
         padding: 15px;
     }
-    
-    section h2{
-        font-size: 1.6rem;
-    }
 
+    section h2 {
+         font-size: 1.6rem; 
+    }
 }
 
-.logo-link {
-    display:block;
-    height: 100%;
-    display: flex;
-    align-items: center;
+@media(max-width: 480px){
+    nav ul {
+        flex-direction: column;
+    }
+
+    nav ul li {
+        margin: 10px 0;
+    }
+
+    max {
+        margin: 10px;
+    }
+
+    form input, form textarea {
+        padding: 8px;
+    }
+
+    form button {
+        padding: 10px;
+        font-size: 0.9rem;
+    }
 }
